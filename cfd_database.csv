@@ -1,0 +1,5 @@
+Geometry Type,Flow Velocity / Mach Number,Reynolds Number,Target y+ Value,First Cell Height,Mesh Growth Rate,Recommended Turbulence Model
+NACA 0012 (2D),Mach 0.8 (Transonic),9×106,≤1,1.2×10−5 m,1.10 to 1.15,Spalart-Allmaras (SA)
+NACA 0012 (2D),Mach 1.2 (Supersonic),9×106,≤1,1.0×10−5 m,1.1,k−ω SST
+Ramjet Injector (Internal),Mach 2.5 (Inlet),Variable,1,5.0×10−6 m,1.10 to 1.15,Realizable k−ϵ
+VTOL Tilt-Rotor (Hover),15 - 25 m/s (Tip Speed),1.5×106,≤1,3.5×10−5 m,1.15 to 1.20,k−ω SST
